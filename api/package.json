@@ -1,0 +1,26 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "api for svg badge generation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charudatta10/svg-banners.git"
+  },
+  "keywords": [
+    "svg",
+    "banners"
+  ],
+  "author": "charudatta10",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charudatta10/svg-banners/issues"
+  },
+  "homepage": "https://github.com/charudatta10/svg-banners#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

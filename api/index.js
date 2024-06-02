@@ -1,6 +1,26 @@
+/*const express = require("express");
+
+const app = express();
+
+app.get('/hi', (req, res) => {
+  res.send('Successful response.');
+});
+
+
+app.listen(1234, () => {
+  console.log("Server is listening on port: 1234");
+}); */
+
+const express = require('express');
+const app = express();
+
+app.get('/hi', (req, res) => {
+  res.send('Successful response.');
+});
+
 const svgs = require("../src/svg");
 
-module.exports = (req, res) => {
+app.get('/', (req, res) => {
   const { type, text1, text2, height, width } = req.query;
 
   res.setHeader("Content-Type", "image/svg+xml");
@@ -18,4 +38,8 @@ module.exports = (req, res) => {
   }
 
   res.send(svg({ text1, text2, height, width }));
-};
+});
+
+app.listen(1234, () => {
+  console.log("Server is listening on port: 1234");
+});
