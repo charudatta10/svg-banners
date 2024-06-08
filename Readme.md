@@ -1,3 +1,9 @@
+> [!WARNING]  
+> This project fork is no longer actively maintained.
+
+> [!TIP]
+> Here are some similar projects: a Python-based unified SVG generator server.
+
 ## 🌠 SVG Banners - Collection of easily customizable animated SVG made with HTML/CSS for your Readme files
 
 ### 💡 Inspiration : 
